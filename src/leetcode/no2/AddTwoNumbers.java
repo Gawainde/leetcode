@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.no2;
 
 @SuppressWarnings("all")
 public class AddTwoNumbers {
