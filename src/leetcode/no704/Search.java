@@ -17,6 +17,7 @@ public class Search {
         }
         int left = 0, right = nums.length - 1;
         while (left <= right) {
+            //为防止right + left过大超出2147483648 使用位运算
             int mid = (right + left) >>> 1;
             if (nums[mid] == target){
                 return mid;
